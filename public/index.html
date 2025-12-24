@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vardaan Electronics</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<h1>Vardaan Electronics</h1>
+  <h3> by AMAN GOSWAMI </h3>
+ <br> 
+<!-- Upload Section -->
+<div class="upload-card" >
+  <input type="file" id="fileInput">
+  <button onclick="uploadFile()">Upload</button>
+  <p id="message"></p>
+
+</div>
+ <br> 
+<br>
+
+<!-- Table Section -->
+<h1>Uploaded Files</h1>
+<table>
+  <thead>
+    <tr>
+      <th>S.No</th>
+      <th>File Name</th>
+      <th> Date & Time </th>
+      <th>Version</th>
+      <th>Status</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
