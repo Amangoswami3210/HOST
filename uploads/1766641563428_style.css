@@ -1,0 +1,169 @@
+/* ========================
+   Global Styles
+======================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", system-ui, Arial, sans-serif;
+}
+
+body {
+    background-color: #9fd3f6; /* SAME LIGHT BLUE */
+    color: #1b1a1a;
+    text-align: center;
+}
+
+/* ========================
+   Header
+======================== */
+.main-header {
+
+    background-color: #9fd3f6; /* SAME LIGHT BLUE */
+    padding: 12px 0;
+    border-bottom: 60px solid #244a80; /* DARK BLUE STRIP */
+    color: #d6c8c8;
+    
+}
+
+.main-header h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.main-header p {
+    margin-top: 6px;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+/* ========================
+   Layout
+======================== */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ========================
+   Upload Section
+======================== */
+.upload-section {
+    margin-top: 45px;
+    
+}
+
+.upload-section h2 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.sub-text {
+    color: #666;
+    margin-bottom: 18px;
+}
+
+.upload-card {
+    background: #ffffff;
+    padding: 28px;
+    max-width: 420px;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    margin: 0 auto; /* CENTERED */
+}
+
+.upload-card input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #cfd8dc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.upload-card input[type="file"]:hover {
+    border-color: #c3df25;
+}
+
+.upload-card button {
+    background: linear-gradient(135deg, #00c853, #64dd17);
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.upload-card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(223, 238, 22, 0.4);
+}
+
+#message {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+/* ========================
+   Table Section
+======================== */
+.table-section {
+    margin: 55px 0;
+}
+
+.table-section h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* TABLE CENTER FIX */
+.table-wrapper {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    overflow-x: auto;
+    text-align: center;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto; /* CENTERED */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background: #203a43;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+td {
+    padding: 13px;
+}
+
+
+
+/* HEADER BACKGROUND */
+.top-header {
+    background-color: #9fd3f6; /* SAME LIGHT BLUE */
+    padding: 12px 0;
+    border-bottom: 6px solid #244a80; /* DARK BLUE STRIP */
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .title-section h1 {
+        font-size: 18px;
+        text-align: center;
+    }  
+}
